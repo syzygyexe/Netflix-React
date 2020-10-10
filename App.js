@@ -1,7 +1,7 @@
 import React from "react";
 import JumboData from "./fixtures/jumbo";
 import Jumbotron from "./components/jumbotron/index";
-
+d
 function App() {
   return (
     <Jumbotron.Container>
