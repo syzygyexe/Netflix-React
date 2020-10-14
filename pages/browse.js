@@ -29,7 +29,7 @@ export function BrowseContainer({ slides }) {
   useEffect(() => {
     // slides comes as films or series
     setSlideRows(slides[category]);
-    // re-render slides agains, whenever they change, same goes for the category
+    // re-render slides again, whenever they change, same goes for the category
   }, [slides, category]);
 
   // If there is a displayname, show loading transition from the profileSelection to the browse Container.
