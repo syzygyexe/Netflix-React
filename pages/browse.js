@@ -32,7 +32,8 @@ export function BrowseContainer({ slides }) {
     // re-render slides agains, whenever they change, same goes for the category
   }, [slides, category]);
 
-  // If there is a displayname, show loading transition from the profileSelection to the browse Container. Basically, whenever someone clicks profile icon after signing-in, send him to the browse page.
+  // If there is a displayname, show loading transition from the profileSelection to the browse Container.
+  // Basically, whenever someone clicks profile icon after signing-in, send him to the browse page.
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
